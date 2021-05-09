@@ -1,4 +1,4 @@
-# Cobalt Strike 利用 Chrome 0day 上线
+# Cobalt Strike 利用 Chrome-0day 上线
 ## Chrome-0day 漏洞介绍
 Google Chrome是由Google开发的免费网页浏览器。经测试，此漏洞影响 Chrome 最新正式版（89.0.4389.128）以及基于Chromium内核的Microsoft Edge正式版（89.0.774.76）。攻击者可通过构造特制web页面并诱导受害者访问来利用此漏洞获得远程代码执行。
 
