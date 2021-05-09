@@ -20,25 +20,25 @@ Google Chrome <= 89.0.4389.128
 
 ## 利用 Chrome-0day 上线 Cobalt Strike
 
-1.首先尝试弹出记事本，成功说明存在漏洞利用  
+### 1.首先尝试弹出记事本，成功说明存在漏洞利用  
 <img src="img/0.png">
-2.CS开启监听  
+### 2.CS开启监听  
   
-2.1生成pyload，https的稳定，勾选x64  
+2.1 生成pyload，https的稳定，勾选x64  
 <img src="img/1.png">
-2.2生成之后获得pyload.c  
+2.2 生成之后获得pyload.c  
 <img src="img/2.png"> 
-2.3将shellcode的\`\\\`全部替换为\`,0\`然后取出来shellcode  放入 chrome 0day 中  
+2.3 将shellcode的\`\\\`全部替换为\`,0\`然后取出来shellcode  放入 chrome 0day 中  
 <img src="img/3.png">
-2.4复制出来 放入 POC 中 第7行 给shellcode  赋值数组，保存 成 chrome.html  
+2.4 复制出来 放入 POC 中 第7行 给shellcode  赋值数组，保存 成 chrome.html  
 <img src="img/4.png">
-2.5执行以下命令，关闭沙箱并打开谷歌浏览器
+2.5 执行以下命令，关闭沙箱并打开谷歌浏览器
 ```
 cd C:\\Program Files\\Google\\Chrome\\Application\\
 chrome.exe \-no-sandbox
 ```
 <img src="img/5.png">
-2.6然后双击打开chrome.html，cs成功上线  
+2.6 然后双击打开chrome.html，cs成功上线  
 <img src="img/6.png">  
 
 ## 注：本实验不得用于商业用途,仅做学习交流，如用作他途造成的一切后果请自行承担!
