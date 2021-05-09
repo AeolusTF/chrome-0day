@@ -22,6 +22,7 @@ Google Chrome <= 89.0.4389.128
 
 ### 1.首先尝试弹出记事本，成功说明存在漏洞利用  
 <img src="img/0.png">
+
 ### 2.CS开启监听  
   
 2.1 生成pyload，https的稳定，勾选x64  
