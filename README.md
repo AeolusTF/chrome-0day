@@ -40,6 +40,6 @@ chrome.exe \-no-sandbox
 <img src="img/5.png">
 2.6然后双击打开chrome.html，cs成功上线  
 <img src="img/6.png">  
-## 注：本实验不得用于商业用途,仅做学习交流，如用作他途造成的一切后果请自行承担!
+注：本实验不得用于商业用途,仅做学习交流，如用作他途造成的一切后果请自行承担!
 
 ## [Chrome-0day ShellCode 传送门](https://github.com/AeolusTF/chrome-0day.git)
